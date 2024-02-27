@@ -55,22 +55,22 @@ function getTimeData() {
 
     if (setWakeUpTime.value == z) {
         message.innerHTML = "GRAB SOME HEALTHY BREAKFAST";
-        imageMessage.src = "wakeup.jpg"
+        imageMessage.src = "images/wakeup.jpg"
 
 
     }
     if (setLunchTime.value == z) {
         message.innerHTML = "LET'S HAVE SOME LUNCH"
-        imageMessage.src = "lunch time vector.jpg"
+        imageMessage.src = "images/lunch time vector.jpg"
     }
     if (setNapTime.value == z) {
         message.innerHTML = "GET SOME TEA"
-        imageMessage.src = "napImage.png"
+        imageMessage.src = "images/napImage.png"
 
     }
     if (setNightTime.value == z) {
         message.innerHTML = "GO TO BED AND SLEEP"
-        imageMessage.src = "night image.jpg"
+        imageMessage.src = "images/night image.jpg"
 
     }
 }
